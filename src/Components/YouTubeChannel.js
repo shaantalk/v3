@@ -62,7 +62,7 @@ const YouTubeChannel = ({ channelId, numberOfVideos }) => {
         </div>
       )}
       <a
-        href={`https://www.youtube.com/channel/${channelId}`}
+        href={`https://www.youtube.com/@${channelId}`}
         target="_blank"
         rel="noopener noreferrer"
       >
